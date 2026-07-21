@@ -1,5 +1,8 @@
 from __future__ import annotations
+import streamlit as st
 
+st.title("Delhi NCR Startup Planner")
+st.write("App Live Ho Gayi Hai!")
 import json
 import math
 import os
@@ -291,5 +294,6 @@ def score():
 
 
 if __name__ == "__main__":
+    pass
     #app.run(host="127.0.0.1", port=5000, debug=True)
 
